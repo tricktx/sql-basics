@@ -9,3 +9,10 @@ SELECT DISTINCT city FROM Station
 SELECT COUNT (*) FROM Amount
 
 SELECT cus.customer_id, cus.first_name, cus.last_name, pay.amount, 'VIP' AS Status FROM customer cus
+
+
+SELECT
+    customer_id,
+    amount,
+    amount - (amount * 0.10) AS "10% de Desconto" 
+ FROM payment
