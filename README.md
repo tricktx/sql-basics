@@ -1,2 +1,2 @@
-# SQL-BASICO
+# sql-basics
 Estudo sobre MySQL
