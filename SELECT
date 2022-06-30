@@ -1,0 +1,11 @@
+SELECT actor_id FROM ACTOR;
+
+SELECT actor_id, first_name, last_name FROM ACTOR;
+
+SELECT * FROM payment;
+
+SELECT DISTINCT city FROM Station
+
+SELECT COUNT (*) FROM Amount
+
+SELECT cus.customer_id, cus.first_name, cus.last_name, pay.amount, 'VIP' AS Status FROM customer cus
