@@ -1,0 +1,19 @@
+SELECT customer_id,
+    amount
+    FROM payment
+    GROUP BY customer_id
+    
+    
+
+SELECT COUNT(amount), rental_id
+FROM payment
+GROUP BY amount
+Order by rental_id asc
+
+
+
+SELECT inventory_id
+FROM rental
+GROUP BY inventory_id
+HAVING count(customer_id) < 300
+    
