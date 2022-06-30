@@ -3,6 +3,9 @@ where amount = 2.99;
 
 SELECT rental_id FROM payment
 WHERE rental_id = 50;
+
+SELECT * FROM payment
+WHERE rental_id IS NULL;
  
 SELECT actor_id FROM actor
 WHERE actor_id >= 100
