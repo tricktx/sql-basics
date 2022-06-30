@@ -1,0 +1,29 @@
+SELECT Max(amount) FROM payment 
+WHERE customer_id = 1;
+
+
+
+SELECT avg(amount) 
+FROM payment;
+
+
+
+SELECT min(inventory_id)
+FROM rental;
+
+
+    
+ SELECT 
+ sum(customer_id) AS 'SOMA' 
+ FROM rental;
+ 
+ 
+   
+SELECT 
+
+ max(inventory_id) AS 'Máximo',
+ min(inventory_id) AS 'Mínimo',
+ avg(inventory_id) AS 'Média',
+ sum(inventory_id) AS 'SOMA'
+
+FROM rental;  
