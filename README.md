@@ -1,2 +1,2 @@
 # mysql-basics
-Estudo sobre MySQL
+Estudo sobre o básico do MySQL
