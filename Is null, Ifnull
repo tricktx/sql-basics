@@ -1,0 +1,15 @@
+SELECT * FROM payment
+WHERE rental_id IS NULL;
+
+
+SELECT * FROM film
+WHERE original_language_id IS NULL;
+
+
+
+SELECT IFNULL(rental_id,50)
+From payment;
+
+
+SELECT IFNULL(original_language_id, 'English')
+FROM film;
